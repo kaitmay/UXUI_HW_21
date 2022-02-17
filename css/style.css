@@ -128,93 +128,6 @@ body {
   }
 
 /* My Work Section */
-.myWork {
-  padding: 60px 30px;
-  padding-top: 0;
-  background-color:white;
-  font-family: Red Hat Display;
-  font-style: normal;
-  text-align: left;
-  color:#5A697E;
-  }
-.myWork h1{
-  font-family: Red Hat Display;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 50px;
-  line-height: 66px;
-  text-align: center;
-  color:#5A697E;
-  margin:25px;
-}
-.myWork h4{
-  font-family: Red Hat Display;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 66px;
-  text-align: left;
-  color:#5A697E;
-}
-.myWork p{
-  font-family: Red Hat Display;
-  font-style: normal;
-  font-size: 18px;
-  text-align: left;
-  color:#5A697E;
-}
-.workGrid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 350px 350px;
-  grid-template-areas:
-  "img1 img2"
-  "content1 content2"
-  ;
-}
-.workGrid img {
-  width: 450px;
-  height: 325px;
-  max-width: 500px;
-  margin: 0 auto;
-  display: block;
-}
-.img1 {
-  grid-area: img1;
-}
-.img2 {
-  grid-area: img2;
-}
-.img3 {
-  grid-area: img3;
-
-
-}
-.img1, .img2, .img3, .img, .content1, .content2, .content3, .content, button {
-  padding: 80px;
-}
-.content1 {
-  grid-area: content1;
-}
-.content2 {
-  grid-area: content2;
-}
-.content3 {
-  grid-area: content3;
-}
-
-
-
-/* About Kaitlin */
-
-.welcomeC h1{
-  color:#5A697E;
-  font-family: Red Hat Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 66px;
-}
 
 
 button {
@@ -226,8 +139,34 @@ button {
   font-weight: 900;
   border-radius: 4px;
   font-family: red hat display;
+  cursor: pointer;
+
 }
-  /* Footer CSS */
+.btn {
+  padding: 20px;
+  margin: 20px 50px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: 8px;
+  font-family: red hat display;
+  border-color: black;
+  cursor: pointer;
+}
+.active, .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn:visited {
+  color: black;
+  background-color: white;
+  font-family: Red Hat Display;
+  text-decoration: none;
+}
+
+/* Footer CSS */
   footer {
     background-color: white;
     padding: 15px;
